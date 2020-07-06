@@ -15,7 +15,7 @@ struct ContentView: View {
                 Text("First Row")
                 Text("Second Row")
                 Text("Third Row")
-            }
+            }.navigationBarTitle(Text("Dynamic List"))
         }
     }
 }
