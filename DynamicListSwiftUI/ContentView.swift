@@ -20,7 +20,8 @@ struct ContentView: View {
     let users: [User] = [
         .init(id: 0, username: "Git branch", message: "Don't forse pushing your stupid ass commits"),
         .init(id: 1,username: "Pull request", message: "I know you are stupid, but try to describe your problem more intelligibly"),
-        .init(id: 2,username: "Comit", message: "Can you explain your commit one week later? If not I'm gonna make your mum not sleep this night")
+        .init(id: 2,username: "Comit", message: "Can you explain your commit one week later? If not I'm gonna make your mum not sleep this night"),
+        .init(id: 3,username: "Issue", message: "When your going to write issue just fucking imagine that you are Stephen King or something, just be more not gay, OK?")
     ]
     
     var body: some View {
